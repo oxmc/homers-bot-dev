@@ -1,10 +1,11 @@
 body {
-  background-image: url("https://cdn.discordapp.com/attachments/823919046461489192/849420912440115240/web_site_picture.jpg") ; 
+  background-color: rgb(161, 159, 159);
+  background-image: url("https://cdn.discordapp.com/attachments/823919046461489192/849420912440115240/web_site_picture.jpg") ;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
   }
 
   h1 {
@@ -20,7 +21,7 @@ body {
     color: white;
     text-align: center;
  }
-        
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -28,15 +29,15 @@ body {
     overflow: hidden;
     background-color: #333;
   }
-  
+
   li {
     float: left;
   }
-  
+
   li a:hover:not(.active) {
     background-color: #439feb;
   }
-  
+
   .active {
     background-color: #1b90f0;
   }
@@ -58,15 +59,15 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+
   li a:hover, .dropdown:hover .dropbtn {
     background-color: #439feb;
   }
-  
+
   li.dropdown {
     display: inline-block;
   }
-  
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -75,7 +76,7 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+
   .dropdown-content a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
@@ -83,9 +84,9 @@ body {
     display: block;
     text-align: left;
   }
-  
+
   .dropdown-content a:hover {background-color: #f1f1f1;}
-  
+
   .dropdown:hover .dropdown-content {
     display: block;
   }
